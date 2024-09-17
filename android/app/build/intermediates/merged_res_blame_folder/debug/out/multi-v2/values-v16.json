@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.partnermobileapp-mergeDebugResources-59:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vanam\\.gradle\\caches\\transforms-4\\54dcb11766b72c750eb71fdbfd98103c\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vanam\\.gradle\\caches\\transforms-4\\7b3030620952c75c04d8a4a854879c0e\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

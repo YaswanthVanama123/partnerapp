@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">790153325076</string>
+    <string name="google_api_key" translatable="false">AIzaSyBhSDPIIbhk_GdO-F-oUN7rvgZTbFx8tgg</string>
+    <string name="google_app_id" translatable="false">1:790153325076:android:7802c0f7e8c27d4cd91501</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBhSDPIIbhk_GdO-F-oUN7rvgZTbFx8tgg</string>
+    <string name="google_storage_bucket" translatable="false">clicksolver-64687.appspot.com</string>
+    <string name="project_id" translatable="false">clicksolver-64687</string>
+</resources>

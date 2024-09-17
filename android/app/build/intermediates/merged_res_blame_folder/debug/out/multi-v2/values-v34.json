@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.partnermobileapp-mergeDebugResources-59:/values-v34/values-v34.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vanam\\.gradle\\caches\\transforms-4\\305bd3396bc408dab985a8659b48413e\\transformed\\jetified-tslocationmanager-v21-3.5.5\\res\\values-v34\\values-v34.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,68",
+                        "endOffsets": "112,181"
+                    }
+                }
+            ]
+        }
+    ]
+}

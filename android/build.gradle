@@ -1,0 +1,53 @@
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 23
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "27.0.12077973"
+        kotlinVersion = "1.9.22"
+        googlePlayServicesLocationVersion = "21.0.1"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    } 
+    dependencies { 
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath('com.google.gms:google-services:4.3.10')
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url("${project(':react-native-background-geolocation').projectDir}/libs") }
+        
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url("${project(':react-native-background-fetch').projectDir}/libs") }
+       // Required for react-native-background-geolocation
+
+       
+       // Required for react-native-background-fetch
+   
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication) 
+            }
+            credentials {
+                // Do not change the username below.
+                // This should always be `mapbox` (not your username).
+                username = 'mapbox'
+                // Use the secret token you stored in gradle.properties as the password
+                password = 'sk.eyJ1IjoieWFzd2FudGh2YW5hbWEiLCJhIjoiY2x6Y2N5ODF5MDloYzJpczh5aHN5NjV1ZiJ9.Y-QWaZyYCZKup-gUZTj61g'
+            }
+        }
+    }
+}
+
+
+apply plugin: "com.facebook.react.rootproject"

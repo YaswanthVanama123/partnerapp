@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "790153325076",
+    "project_id": "clicksolver-64687",
+    "storage_bucket": "clicksolver-64687.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790153325076:android:7802c0f7e8c27d4cd91501",
+        "android_client_info": {
+          "package_name": "com.partnermobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhSDPIIbhk_GdO-F-oUN7rvgZTbFx8tgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790153325076:android:65da263f6a6fe456d91501",
+        "android_client_info": {
+          "package_name": "com.userapp1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhSDPIIbhk_GdO-F-oUN7rvgZTbFx8tgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
